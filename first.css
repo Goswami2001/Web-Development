@@ -1,0 +1,10 @@
+button:hover{
+    border-radius: 10px;
+    background-color: #f50aed;
+    color: #f0f8ff;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom:20px;
+    transition: 0.7s;
+}

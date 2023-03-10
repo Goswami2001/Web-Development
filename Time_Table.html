@@ -1,0 +1,92 @@
+<!--A small project for creating a Time-Table of CSE/IT Students using only HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table | using HTML</title>
+</head>
+<body bgcolor="#F9F5E7">
+    <!--mark tag is used to highlight an area-->
+    <heading align="center" mark><h1><mark>Lecture Time-Table for CSE/IT students</mark></h1>
+        <center><img src="images\LOGO_Stacked-CLR-400x427.png" alt="Logo of College" width="60"></center>
+    </heading>
+    <!--table is used for crating table-->
+    <!--cellpadding is giving for inner-space-->
+    <table align = "center" border="||" cellpadding="18px">
+        <!--thead is used to give heading of an table-->
+        <thead>
+            <!--tr is used for the row-->
+            <tr>
+                <!--colspan is used for joining the rows-->
+                <!--th is used for the heading purpose-->
+                <th colspan="7">Time Table</th>
+            </tr>
+            <tr>
+                <th>Day/Lecture</th>
+                <th>Lecture - I<br/>10:20-11:10</th>
+                <th>Lecture - II<br/>11:10-12:00</th>
+                <th>Lecture - III<br/>12:00-12:40</th>
+                <th>Break</th>
+                <th>Lecture - IV<br/>01:10-02:00</th>
+                <th>Lecture - V<br/>02:00-03:40</th>
+            </tr>
+        </thead>
+        <!--tbody is used to give body of an table-->
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <th>Algorithm Analysis</th>
+                <th>Computer Architecture</th>
+                <th>Biology</th>
+                <!--rowspan is used for joining the rows-->
+                <th rowspan="5">Tiffin</th>
+                <th>Environmental Science</th>
+                <th>Algorithm Analysis Lab</th>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <th>Biology</th>
+                <th>Automata Theory</th>
+                <th>Algorithm Analysis</th>
+                
+                <th>Discrete Mathematics</th>
+                <th>Computer Architecture Lab</th>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <th>Discrete Mathematics</th>
+                <th>Computer Architecture</th>
+                <th>Automata Theory</th>
+                
+                <th>Environmental Science</th>
+                <th>Data Structure Lab</th>
+            </tr>
+            <tr>
+                <th>Thrusday</th>
+                <th>Algorithm Analysis</th>
+                <th>Computer Architecture</th>
+                <th>Biology</th>
+                
+                <th>Discrete Mathematics</th>
+                <th>Algorithm Analysis Lab</th>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <th>Automata Theory</th>
+                <th>Discrete Mathematics</th>
+                <th>Algorithm Analysis</th>
+                
+                <th>Environmental Science</th>
+                <th>Computer Architecture Lab</th>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <!--download is an attribute of anchor tag so user can download the file-->
+        <p>You can download the image by clicking : <a href="images\Screenshot_20230224_220119.png" alt="Download the Time-Table" download>Click Here to Download</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!--creating a Registration form using only HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<!--Creating a registration form-->
+<h1>Registration Form</h1>
+<body bgcolor = "FFF1DC">
+    <form method="post" target="_blank">
+    <center><h2>Registration form for students</h2></center>
+    <table align="center" border = "|">
+        <tr>
+            <!--Taking input before procedure to next page-->
+            <td>Student No</td>
+            <!--label is used for highlight the colour that place which user is currently choose for fill up-->
+            <label for="student id"></label>
+            <!--Student Id will be a number so we use number attribute-->
+            <!--Placeholder will give some hint to the user that how to type-->
+             <!--Max and Min value will give you actual number you cann't go beyond that particular number-->
+            <td><input type = "number" id ="Student No" placeholder="E.X-1" min="0" max="130"></td>
+        </tr>
+        <tr>
+            <td>Student Name</td>
+            <!--label is used for highlight the colour that place which user is currently choose for fill up-->
+            <label for = "name"></label>
+            <!--Student Id will be a text so we use text attribute-->
+            <td><input type ="text" name = "name" id ="name" placeholder="E.X-Rahul Goswami"></td>
+        </tr>
+        <tr>
+            <td>University Roll No</td>
+            <!--label is used for highlight the colour that place which user is currently choose for fill up-->
+            <label for = "roll no"></label>
+            <!--Student Id will be a number so we use number attribute-->
+            <td><input type = "number" placeholder="E.X-1001010101"></input></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <label for ="Male"></label>
+            <!--Radio attribute is used to choose one among many option-->
+            <td><input type ="radio" name ="Male" id="male" value="male">Male
+            <label for ="Female"></label>
+            <input type ="radio" name ="Male" id="other" value="female">Female
+            <label for ="Other"></label>
+            <input type ="radio" name ="Male" id="other" value="other">Other</td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <label for="dob"></label>
+            <td><input type ="date" name ="dob" id ="dob"></td>
+        </tr>
+        <tr>
+            <!--Selecting among vrious things we use select tag and inside select atg we use option tag-->
+            <td>Select your year
+            <label for="Year"></label>
+            <select>Select your year
+                <option> 1st year</option>
+                <option> 2nd year</option>
+                <option> 3rd year</option>
+                <option> 4th year</option>
+                <option> Passed out</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Branch</td>
+            <lebel for="branch"></lebel>
+            <td><input type ="text" name="branch" id="branch" placeholder="E.X-IT"></td>
+        </tr>
+        <tr>
+            <!--Mail attribute is a input tag attribute which we use for taking mail as input-->
+            <td>Enter the mail</td>
+            <lebel for="mail"></lebel>
+            <td><input type="mail" name ="mail" id ="mail" placeholder="E.X-goswami.rahul1002@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <label for="password"></label>
+            <td><input type="password"name ="password"id="password" placeholder="E.X-Rahul@2001"</td>
+        </tr>
+        <tr>
+            <td>Your hobbeies</td>
+            <label for="hobbies"></label>
+            <!--Checkboxes are used for choosing more than one hobbies-->
+            <td><input type="checkbox">Gardening
+                <input type="checkbox">Reading story books
+                <input type="checkbox">Bloging on street foods
+                <input type="checkbox">Singing
+                <input type="checkbox">Dancing
+                <input type="checkbox">Learning new language
+                <input type="checkbox">Shopping</td>
+        </tr>
+        <tr>
+            <td>Permarent Adress</td>
+            <label for="adress"></label>
+            <!--Textarea is used for storing a large amount of text-->
+       <td><textarea name ="adress" id="adress" placeholder="E.X-College Road,Bishnupur"></textarea></td>
+    </tr>
+    <tr>
+        <td>State
+            <label for="Year"></label>
+            <select>Select your year
+                <option> West Bengal</option>
+                <option> Bihar</option>
+                <option> Odissa</option>
+                <option> Jharkhand</option>
+                <option> Himachal Pradesh</option>
+                <option> Other</option>
+                <td>If other state then specify the state<input type ="text" placeholder="E.X-Bengalore"></td>
+            </select>
+            </td>
+    </tr>
+    <tr>
+        <td>PIN No.</td>
+        <!--Max and Min value will give you actual number you cann't go beyond that particular number-->
+        <td><input type="number" placeholder="722122" max="0" min="999999"></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td diabled>India</td>
+    </tr>
+    <tr>
+        <!--Input type = "Submit" is used for a button which will submit the form-->
+        <td><input type="submit"></td>
+        <!--Input type = "Reset" is used for a button which will Reset the form-->
+        <td><input type="reset"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
